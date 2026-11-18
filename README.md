@@ -19,7 +19,7 @@ horário de Brasília. Funciona no computador e no celular (instalável como app
 ## Como foi feito
 
 Este projeto foi **vibecodado**: eu não escrevi o código linha por linha. Construí o app conversando
-com uma IA ([Claude Code](https://claude.com/claude-code)), que escreveu o código seguindo as minhas decisões.
+com uma IA, que escreveu o código seguindo as minhas decisões.
 
 O que foi meu:
 
