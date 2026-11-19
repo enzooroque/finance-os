@@ -37,7 +37,7 @@ export default async function RelatoriosPage({ searchParams }: PageProps<"/relat
 
   return (
     <>
-      <PageHeader title="Relatórios" description={`Visão ${viewLabel}. Troque a visão no topo para mudar o relatório.`} />
+      <PageHeader title="Relatórios" description={`Visão ${viewLabel}.`} />
       <form method="get" className="mb-4 flex flex-wrap items-end gap-3 rounded-xl border bg-surface-1/60 p-3">
         <div className="grid gap-1.5">
           <Label htmlFor="de">De</Label>

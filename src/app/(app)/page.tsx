@@ -43,7 +43,7 @@ export default async function DashboardPage({ searchParams }: PageProps<"/">) {
         <EmptyState
           icon={LayoutDashboard}
           title="Comece cadastrando uma conta"
-          description="O painel é calculado a partir dos seus lançamentos reais: contas, cartões, contas fixas e metas."
+          description="Com uma conta cadastrada, o resumo do mês aparece aqui."
           action={
             <Link href="/contas" className="text-sm text-primary underline-offset-4 hover:underline">
               Ir para Contas

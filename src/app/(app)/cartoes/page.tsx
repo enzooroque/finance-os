@@ -21,7 +21,7 @@ export default async function CartoesPage() {
 
   return (
     <>
-      <PageHeader title="Cartões" description="Cartões de crédito, faturas e parcelamentos." actions={cards.length ? newButton : undefined} />
+      <PageHeader title="Cartões" actions={cards.length ? newButton : undefined} />
       {cards.length === 0 ? (
         <EmptyState
           icon={CreditCard}

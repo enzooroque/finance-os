@@ -61,7 +61,7 @@ export default async function ContasAPagarPage({ searchParams }: PageProps<"/con
 
   return (
     <>
-      <PageHeader title="Contas a pagar" description="Contas fixas, recorrências e vencimentos." actions={rules.length ? newButton : undefined} />
+      <PageHeader title="Contas a pagar" actions={rules.length ? newButton : undefined} />
       {rules.length === 0 ? (
         <EmptyState
           icon={CalendarClock}

@@ -80,7 +80,7 @@ export default async function TransacoesPage({ searchParams }: PageProps<"/trans
     <>
       <PageHeader
         title="Transações"
-        description="Receitas, despesas e transferências."
+       
         actions={
           <>
             <Button asChild variant="outline">

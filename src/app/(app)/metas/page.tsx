@@ -59,7 +59,7 @@ export default async function MetasPage() {
                     </div>
                     <p className="mt-1 flex justify-between text-xs text-muted-foreground">
                       <span>{pct}%</span>
-                      <span>{remaining > 0 ? `Faltam ${formatBRL(remaining)}` : "Meta atingida! 🎉"}</span>
+                      <span>{remaining > 0 ? `Faltam ${formatBRL(remaining)}` : "Meta atingida"}</span>
                     </p>
                   </div>
                   {remaining > 0 && (

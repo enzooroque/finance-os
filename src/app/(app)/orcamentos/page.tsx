@@ -32,7 +32,7 @@ export default async function OrcamentosPage({ searchParams }: PageProps<"/orcam
     <>
       <PageHeader
         title="Orçamentos"
-        description="Limites mensais por categoria."
+       
         actions={
           <>
             <CopyPreviousButton month={month} />
@@ -52,7 +52,7 @@ export default async function OrcamentosPage({ searchParams }: PageProps<"/orcam
         <div role="status" className="mb-4 rounded-xl border border-warning/40 bg-warning/10 p-3 text-sm">
           {alerts.map((b) => (
             <p key={b.id}>
-              {budgetLevel(b.usedCents, b.plannedCents) === "over" ? "⚠️ Estourou" : "Atenção:"} {b.categoryName} —{" "}
+              {budgetLevel(b.usedCents, b.plannedCents) === "over" ? "Estourou:" : "Atenção:"} {b.categoryName},{" "}
               {formatBRL(b.usedCents)} de {formatBRL(b.plannedCents)}
             </p>
           ))}

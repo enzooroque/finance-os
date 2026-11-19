@@ -37,7 +37,7 @@ export default async function ContasPage() {
 
   return (
     <>
-      <PageHeader title="Contas" description="Contas bancárias, carteiras e saldos." actions={accounts.length ? newButton : undefined} />
+      <PageHeader title="Contas" actions={accounts.length ? newButton : undefined} />
       {accounts.length === 0 ? (
         <EmptyState
           icon={Wallet}

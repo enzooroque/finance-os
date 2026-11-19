@@ -35,7 +35,7 @@ export function SpendRing({ limitCents, spentCents, month, today }: { limitCents
   const message = p.status === "over"
     ? `Limite do mês estourado em ${formatBRL(-p.remainingCents)}. Segura os gastos variáveis até virar o mês.`
     : p.isNewMonth
-      ? `Mês novo, limite cheio: ${formatBRL(limitCents)}. Respira antes de pedir delivery.`
+      ? `Mês novo, limite cheio: ${formatBRL(limitCents)}.`
       : p.status === "ahead"
         ? `Você está gastando mais rápido que o ritmo. Dá pra gastar ${formatBRL(p.dailyCents)} por dia até o fim do mês.`
         : p.daysLeft > 0

@@ -22,7 +22,7 @@ export const metadata: Metadata = { title: "Configurações" };
 export default function ConfiguracoesPage() {
   return (
     <>
-      <PageHeader title="Configurações" description="Perfil, espaço compartilhado e preferências." />
+      <PageHeader title="Configurações" />
       <div className="grid gap-4 lg:grid-cols-2">
         <Suspense fallback={<SectionsSkeleton />}>
           <AccountSections />
